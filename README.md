@@ -1,4 +1,4 @@
-# systemd-expressvpn-script-and-configuration
+# Automatically connect on boot up to expressvpn with systemd
 A script and configuration for automatic start on boot for expressVPN with systemd in linux.
 
 How it works.
