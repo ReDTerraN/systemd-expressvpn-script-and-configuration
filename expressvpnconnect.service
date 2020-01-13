@@ -1,0 +1,10 @@
+[Unit]
+Description=ExpressVPN onboot connect script.
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/bin/expressvpn.sh start
+#After=expressvpn.service
+Description="to connect to VPN"
+[Install]
+WantedBy=multi-user.target
