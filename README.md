@@ -2,7 +2,7 @@
 A script and configuration for automatic start on boot for expressVPN with systemd in linux.
 
 How it works.
-1. install ExpressVPN from their ExpressVPN homepage.
+1. install ExpressVPN from the ExpressVPN homepage.
 2. copy expressvpnconnect.service file to /etc/systemd/system/
 3. copy expressvpn.sh file to /usr/bin/
 4. do following command to make it executable: "sudo chmod +x  /usr/bin/expressvpn.sh" to make it executable.
